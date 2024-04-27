@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SnakeWpf"
         mc:Ignorable="d"
-        Title="Змейка" Height="450" Width="800">
+        Title="Змейка" Height="450" Width="800" KeyDown="Window_KeyDown_1">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*"/>
@@ -23,10 +23,10 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Row="0" Grid.Column="1" Content="Вверх" Height="50"/>
-            <Button Grid.Row="1" Grid.Column="0" Content="Влево" Height="50"/>
-            <Button Grid.Row="1" Grid.Column="2" Content="Вправо" Height="50"/>
-            <Button Grid.Row="2" Grid.Column="1" Content="Вниз" Height="50"/>
+            <Button Grid.Row="0" Grid.Column="1" Content="Вверх" Height="50" Click="Button_Click_1"/>
+            <Button Grid.Row="1" Grid.Column="0" Content="Влево" Height="50" Click="Button_Click_2"/>
+            <Button Grid.Row="1" Grid.Column="2" Content="Вправо" Height="50" Click="Button_Click"/>
+            <Button Grid.Row="2" Grid.Column="1" Content="Вниз" Height="50" Click="Button_Click_3"/>
         </Grid>
     </Grid>
     
