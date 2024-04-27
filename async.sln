@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tcp", "tcp\tcp.csproj", "{9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tcpClient", "tcpClient\tcpClient.csproj", "{AFE7A105-27C8-4B69-81AA-CBD52956B11B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "snake", "snake\snake.csproj", "{79EE162D-4862-4536-8255-A16955696E6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "snake", "snake\snake.csproj", "{79EE162D-4862-4536-8255-A16955696E6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeGame", "SnakeGame\SnakeGame.csproj", "{9E573FC3-A442-4E6B-B2DD-CEDEE947FA99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnakeGame", "SnakeGame\SnakeGame.csproj", "{9E573FC3-A442-4E6B-B2DD-CEDEE947FA99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeWpf", "SnakeWpf\SnakeWpf.csproj", "{A6A4A5B0-6444-41B7-B4F9-F33229F24400}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{9E573FC3-A442-4E6B-B2DD-CEDEE947FA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E573FC3-A442-4E6B-B2DD-CEDEE947FA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E573FC3-A442-4E6B-B2DD-CEDEE947FA99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A4A5B0-6444-41B7-B4F9-F33229F24400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A4A5B0-6444-41B7-B4F9-F33229F24400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A4A5B0-6444-41B7-B4F9-F33229F24400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A4A5B0-6444-41B7-B4F9-F33229F24400}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
